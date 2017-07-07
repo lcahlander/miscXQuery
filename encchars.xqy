@@ -6,7 +6,7 @@ The module contains variables for each of the unicode escape sequences at
  :)
 module namespace encchars="http://w3.org/encoded/characters";    
 
-(:               Name                    Unicode code point  Description :)
+(:               Name                    Escape Sequence     Description :)
 declare variable $encchars:quot          := "&#34;";         (: quotation mark (APL quote) :)
 declare variable $encchars:amp           := "&#38;";         (: ampersand :)
 declare variable $encchars:apos          := "&#39;";         (: apostrophe (apostrophe-quote); see below :)
